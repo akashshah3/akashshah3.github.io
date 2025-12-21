@@ -5,10 +5,12 @@ import { Experience } from "./components/Experience";
 import { Research } from "./components/Research";
 import { Projects } from "./components/Projects";
 import { Certifications } from "./components/Certifications";
+import { ScrollProgress } from "./components/ui/scroll-progress";
 
 function App() {
   return (
     <main className="min-h-screen bg-white text-stone-900 font-sans selection:bg-stone-100 pb-20">
+      <ScrollProgress />
       <Hero />
       <About />
       <Experience />
