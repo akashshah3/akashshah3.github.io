@@ -1,7 +1,10 @@
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
+import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
+import { Research } from "./components/Research";
 import { Projects } from "./components/Projects";
+import { Certifications } from "./components/Certifications";
 
 function App() {
   return (
@@ -9,7 +12,10 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Skills />
       <Projects />
+      <Certifications />
+      <Research />
       <footer className="max-w-2xl mx-auto px-6 py-12 text-center text-xs text-stone-400 font-mono">
         <p>© {new Date().getFullYear()} Akash Shah. Typeset in Inter & Manrope.</p>
       </footer>

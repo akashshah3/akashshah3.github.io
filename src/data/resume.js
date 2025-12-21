@@ -58,19 +58,51 @@ export const RESUME_DATA = {
                 "Designed and developed a full-stack E-commerce platform for eco-friendly jute bags. implemented product catalog, shopping cart, and order management. Built front-end with React.js, HTML, CSS. Developed RESTful APIs with Node.js/Express and MongoDB.",
         },
     ],
-    skills: [
-        "Java",
-        "C++",
-        "Python",
-        "JavaScript",
-        "ReactJS",
-        "Node.js",
-        "MongoDB",
-        "SQL",
-        "Machine Learning (Scikit-learn, TensorFlow)",
-        "NLP",
-        "Streamlit",
-        "Git",
+    skills: {
+        languages: ["Java", "C", "C++", "Python", "JavaScript"],
+        frameworks: ["ReactJS", "Node.js", "Express", "Streamlit", "Flask"],
+        tools: ["Git", "Postman", "Docker", "Linux (Ubuntu/Fedora)"],
+        libraries: ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "NLTK", "OpenCV"],
+        databases: ["MongoDB", "SQL", "PostgreSQL"],
+    },
+    certifications: [
+        {
+            name: "ServiceNow: Certified System Administrator (CSA)",
+            issuer: "ServiceNow",
+            year: "2024", // Approximate based on context if not specified, or just omit year if unsure. Resume doesn't strictly say dates for all, we can leave generic.
+        },
+        {
+            name: "ServiceNow: Certified Application Developer (CAD)",
+            issuer: "ServiceNow",
+        },
+        {
+            name: "Red Hat Certified System Administrator (RH124)",
+            issuer: "Red Hat",
+        },
+        {
+            name: "Oracle Cloud Infrastructure & Database Foundations",
+            issuer: "Oracle",
+        },
+        {
+            name: "Java Programming Fundamentals",
+            issuer: "Infosys Springboard",
+        }
+    ],
+    research: [
+        {
+            title: "Gut Microbiome-based Cardiovascular Prediction using Random Forest Model",
+            conference: "2024 Control Instrumentation System Conference (CISCON)",
+            authors: "Akash Shah, Akshat Duggal, Arya Gaurkar, Monali Gulhane",
+            doi: "10.1109/CISCON62171.2024.10696178",
+            year: "2024",
+        },
+        {
+            title: "Evaluating Generative Models: A Review of Challenges and Opportunities",
+            conference: "IEEE (Proceedings)",
+            authors: "Akash Shah, Nitin Rakesh, Monali Gulhane, et al.",
+            doi: "10.1109/cictn64563.2025.10932502",
+            year: "2025",
+        }
     ],
     projects: [
         {
