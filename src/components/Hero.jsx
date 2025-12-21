@@ -5,7 +5,7 @@ import { FadeIn } from "./ui/fade-in";
 
 export function Hero() {
     return (
-        <Section className="py-20 md:py-32 space-y-8">
+        <Section className="py-12 md:py-20 space-y-8">
             <FadeIn className="space-y-4" delay={0.1}>
                 <h1 className="text-4xl md:text-6xl font-bold font-display tracking-tight text-stone-950">
                     {RESUME_DATA.name}

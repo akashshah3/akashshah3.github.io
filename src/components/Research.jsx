@@ -11,7 +11,7 @@ export function Research() {
             </FadeIn>
             <div className="space-y-8">
                 {RESUME_DATA.research.map((item, index) => (
-                    <FadeIn key={item.title} delay={index * 0.1} className="pl-4 border-l-2 border-stone-100 hover:border-stone-300 transition-colors">
+                    <FadeIn key={item.title} delay={index * 0.1} className="pl-4 border-l-2 border-stone-100 hover:border-stone-400 hover:pl-5 transition-all duration-300">
                         <h3 className="font-semibold text-stone-900 leading-snug">
                             {item.title}
                         </h3>
