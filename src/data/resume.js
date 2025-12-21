@@ -110,7 +110,26 @@ export const RESUME_DATA = {
             ],
         },
         {
+            title: "Claims Description Normalizer",
+            techStack: ["Python", "Streamlit", "scikit-learn", "TF-IDF"],
+            description:
+                "An intelligent system that extracts 7 structured fields from unstructured insurance claim text with 82.93% average accuracy.",
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/akashshah3/Claims-Description-Normalizer/tree/owm-model",
+                    icon: Github,
+                },
+                {
+                    type: "Demo",
+                    href: "https://claims-description-normalizer-custom-model.streamlit.app/",
+                    icon: Globe,
+                },
+            ],
+        },
+        {
             title: "Credit Card Optimization Tool",
+            status: "In Progress",
             techStack: ["Python", "Flask", "Pandas", "Streamlit"],
             description:
                 "Recommends best credit cards for cashback based on user expenses. Implemented rule-based optimization logic.",

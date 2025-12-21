@@ -14,8 +14,13 @@ export function Projects() {
                 {RESUME_DATA.projects.map((project, index) => (
                     <FadeIn key={project.title} delay={index * 0.1} className="h-full">
                         <Card className="flex flex-col gap-3 hover:bg-stone-50 transition-colors border-stone-200/60 h-full">
-                            <h3 className="font-semibold font-display text-base text-stone-900">
+                            <h3 className="font-semibold font-display text-base text-stone-900 flex items-center gap-2">
                                 {project.title}
+                                {project.status && (
+                                    <span className="bg-amber-100 text-amber-700 text-[10px] px-1.5 py-0.5 rounded-md font-medium border border-amber-200">
+                                        {project.status}
+                                    </span>
+                                )}
                             </h3>
                             <p className="text-sm text-stone-500 leading-relaxed flex-1 text-pretty">{project.description}</p>
 
