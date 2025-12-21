@@ -69,23 +69,28 @@ export const RESUME_DATA = {
         {
             name: "ServiceNow: Certified System Administrator (CSA)",
             issuer: "ServiceNow",
-            year: "2024", // Approximate based on context if not specified, or just omit year if unsure. Resume doesn't strictly say dates for all, we can leave generic.
+            year: "2025",
+            link: "#", // Add verification link
         },
         {
             name: "ServiceNow: Certified Application Developer (CAD)",
             issuer: "ServiceNow",
+            link: "#",
         },
         {
             name: "Red Hat Certified System Administrator (RH124)",
             issuer: "Red Hat",
+            link: "#",
         },
         {
             name: "Oracle Cloud Infrastructure & Database Foundations",
             issuer: "Oracle",
+            link: "#",
         },
         {
             name: "Java Programming Fundamentals",
             issuer: "Infosys Springboard",
+            link: "#",
         }
     ],
     research: [
@@ -98,7 +103,7 @@ export const RESUME_DATA = {
         },
         {
             title: "Evaluating Generative Models: A Review of Challenges and Opportunities",
-            conference: "IEEE (Proceedings)",
+            conference: "2025 2nd International Conference on Computational Intelligence, Communication Technology and Networking (CICTN)",
             authors: "Akash Shah, Nitin Rakesh, Monali Gulhane, et al.",
             doi: "10.1109/cictn64563.2025.10932502",
             year: "2025",
