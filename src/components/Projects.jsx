@@ -14,14 +14,28 @@ export function Projects() {
                 {RESUME_DATA.projects.map((project, index) => (
                     <FadeIn key={project.title} delay={index * 0.1} className="h-full">
                         <Card className="flex flex-col gap-3 hover:bg-stone-50 transition-colors border-stone-200/60 h-full">
-                            <h3 className="font-semibold font-display text-base">
-                                <a href={project.link.href} target="_blank" rel="noreferrer" className="hover:underline decoration-stone-300 underline-offset-4 decoration-1">
-                                    {project.title}
-                                </a>
+                            <h3 className="font-semibold font-display text-base text-stone-900">
+                                {project.title}
                             </h3>
                             <p className="text-sm text-stone-500 leading-relaxed flex-1 text-pretty">{project.description}</p>
-                            <div className="flex gap-2 flex-wrap mt-auto pt-2">
+
+                            <div className="flex gap-2 flex-wrap mb-1">
                                 {project.techStack.map(t => <Badge key={t} variant="outline" className="text-[10px] text-stone-500 border-stone-200 font-normal bg-stone-50/50">{t}</Badge>)}
+                            </div>
+
+                            <div className="flex gap-2 pt-2 mt-auto">
+                                {project.links.map((link) => (
+                                    <a
+                                        key={link.href}
+                                        href={link.href}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center gap-2 text-xs font-medium px-3 py-1.5 rounded-md transition-all bg-stone-900 text-stone-50 hover:bg-stone-800 hover:scale-105 active:scale-95 shadow-sm"
+                                    >
+                                        <link.icon className="h-3 w-3" />
+                                        {link.type}
+                                    </a>
+                                ))}
                             </div>
                         </Card>
                     </FadeIn>

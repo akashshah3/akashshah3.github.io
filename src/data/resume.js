@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Globe } from "lucide-react";
 
 export const RESUME_DATA = {
     name: "Akash Shah",
@@ -78,30 +78,43 @@ export const RESUME_DATA = {
             techStack: ["Python", "NLP", "Streamlit", "Transformers"],
             description:
                 "AI-powered personal study assistant. Implemented NLP to analyze notes, identify learning gaps, and provide feedback.",
-            link: {
-                label: "View Project",
-                href: "#", // Placeholder
-            },
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/akashshah3/MindMentor",
+                    icon: Github,
+                },
+                {
+                    type: "Demo",
+                    href: "https://mindmentor.streamlit.app/",
+                    icon: Globe,
+                },
+            ],
         },
         {
             title: "GutHeart",
             techStack: ["Python", "Scikit-learn", "Streamlit", "SHAP"],
             description:
                 "AI application predicting cardiovascular disease risk from gut microbiome data. Deployed at gutheart.streamlit.app.",
-            link: {
-                label: "gutheart.streamlit.app",
-                href: "https://gutheart.streamlit.app",
-            },
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/akashshah3/GutHeart",
+                    icon: Github,
+                },
+                {
+                    type: "Demo",
+                    href: "https://gutheart.streamlit.app/",
+                    icon: Globe,
+                },
+            ],
         },
         {
             title: "Credit Card Optimization Tool",
             techStack: ["Python", "Flask", "Pandas", "Streamlit"],
             description:
                 "Recommends best credit cards for cashback based on user expenses. Implemented rule-based optimization logic.",
-            link: {
-                label: "View Project",
-                href: "#",
-            },
+            links: [],
         },
     ],
 }
