@@ -48,8 +48,18 @@ export const RESUME_DATA = {
     ],
     work: [
         {
+            company: "Baseraa",
+            link: "https://baseraa.io",
+            badges: ["Internship"],
+            title: "AI Intern",
+            start: "Jan 2026",
+            end: "Present",
+            description:
+                "Spearheaded the development of a core Financial Engine and Automated Valuation Model (AVM), enabling landlords to digitize complex investment analysis and instantly calculate ROI, rental yields, and property valuations. Formulated advanced mathematical models that synthesize diverse market inputs, including local rental laws and property sales regulations, into accurate valuation metrics. Architected the core Python logic to structure unstructured real estate data, laying the foundational pipeline for future predictive machine learning integration. Prototyped and pitched a functional MVP to the founding team, securing immediate approval for integration into the main product ecosystem.",
+        },
+        {
             company: "Estree Foundation",
-            link: "https://estree.org", // Placeholder if not known
+            link: "https://estree.in", // Placeholder if not known
             badges: ["Internship"],
             title: "Full Stack Intern",
             start: "July 2024",
